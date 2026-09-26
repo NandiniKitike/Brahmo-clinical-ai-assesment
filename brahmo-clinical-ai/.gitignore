@@ -1,6 +1,5 @@
 # Environment — NEVER commit real credentials
 .env
-.env.*
 
 # Virtual environment
 .venv/
