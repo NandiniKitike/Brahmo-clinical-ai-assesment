@@ -1,0 +1,128 @@
+{
+  "rail_output": {
+    "prescription_items": [
+      {
+        "raw_input": "Dolo 650",
+        "resolved": true,
+        "product_id": "1ef18ecb-5998-4580-a4ad-03de7d3985cd",
+        "resolution_confidence": 1.0
+      },
+      {
+        "raw_input": "Sinarest Tablet",
+        "resolved": true,
+        "product_id": "a90c033d-cc1f-4171-97f5-f284b9f9988c",
+        "resolution_confidence": 1.0
+      },
+      {
+        "raw_input": "Mox 500",
+        "resolved": true,
+        "product_id": "fc24bd25-c31b-449a-8de6-ee19dd69994f",
+        "resolution_confidence": 1.0
+      }
+    ],
+    "unresolved_items": [],
+    "checks": {
+      "duplicate_ingredient": {
+        "check_state": "HIT",
+        "severity": "HIGH",
+        "evidence": "DUPLICATE ACTIVE INGREDIENT DETECTED. 'paracetamol' appears in: Dolo 650, Sinarest Tablet \u2192 cumulative 2950.0 mg/day total",
+        "affected_products": [
+          "1ef18ecb-5998-4580-a4ad-03de7d3985cd",
+          "a90c033d-cc1f-4171-97f5-f284b9f9988c"
+        ],
+        "affected_ingredients": [
+          "paracetamol"
+        ],
+        "aggregate_exposure": {
+          "paracetamol": {
+            "occurrences": 2,
+            "in_products": [
+              "Dolo 650",
+              "Sinarest Tablet"
+            ],
+            "total_mg_per_day": 2950.0
+          }
+        },
+        "rule_version": "safety-rail-v1.0",
+        "data_version": "CDCI-SUBSET-2026Q2 + GAZETTE-2026Q3 + INTERACTION-SEED-v1"
+      },
+      "regulatory": {
+        "check_state": "CHECKED_NO_HIT",
+        "severity": "INFO",
+        "evidence": "All 3 products checked against gazette register. No active prohibitions found.",
+        "affected_products": [
+          "1ef18ecb-5998-4580-a4ad-03de7d3985cd",
+          "a90c033d-cc1f-4171-97f5-f284b9f9988c",
+          "fc24bd25-c31b-449a-8de6-ee19dd69994f"
+        ],
+        "affected_ingredients": [],
+        "aggregate_exposure": null,
+        "rule_version": "safety-rail-v1.0",
+        "data_version": "CDCI-SUBSET-2026Q2 + GAZETTE-2026Q3 + INTERACTION-SEED-v1"
+      },
+      "interaction": {
+        "check_state": "CHECKED_NO_HIT",
+        "severity": "INFO",
+        "evidence": "No severe interaction pairs found among 4 active ingredients. Seed list version: CDCI-SUBSET-2026Q2 + GAZETTE-2026Q3 + INTERACTION-SEED-v1",
+        "affected_products": [],
+        "affected_ingredients": [
+          "469fa356-60a0-4e48-b48e-7387a0b3002f",
+          "a9347c7b-fc52-4e78-8d2a-b4bce2a76176",
+          "b2eecf14-c179-47d5-a794-b9e6943690e0",
+          "63b536e0-e14b-41d7-b4f0-16fecc569988"
+        ],
+        "aggregate_exposure": null,
+        "rule_version": "safety-rail-v1.0",
+        "data_version": "CDCI-SUBSET-2026Q2 + GAZETTE-2026Q3 + INTERACTION-SEED-v1"
+      },
+      "cumulative_exposure": {
+        "check_state": "HIT",
+        "severity": "HIGH",
+        "evidence": "CUMULATIVE INGREDIENT EXPOSURE DETECTED. [paracetamol] shared across ['Dolo 650', 'Sinarest Tablet'] \u2014 combined total: 2950.0 mg/day (1950.0|1000.0 mg contributions)",
+        "affected_products": [],
+        "affected_ingredients": [
+          "paracetamol"
+        ],
+        "aggregate_exposure": {
+          "paracetamol": {
+            "in_products": [
+              "Dolo 650",
+              "Sinarest Tablet"
+            ],
+            "total_mg_per_day_known": 2950.0,
+            "has_incomplete_dose_info": false,
+            "contributions": [
+              {
+                "brand_name": "Dolo 650",
+                "per_dose_mg": 650.0,
+                "doses_per_day": 3,
+                "daily_mg": 1950.0
+              },
+              {
+                "brand_name": "Sinarest Tablet",
+                "per_dose_mg": 500.0,
+                "doses_per_day": 2,
+                "daily_mg": 1000.0
+              }
+            ]
+          }
+        },
+        "rule_version": "safety-rail-v1.0",
+        "data_version": "CDCI-SUBSET-2026Q2 + GAZETTE-2026Q3 + INTERACTION-SEED-v1"
+      }
+    },
+    "rail_data_version": "CDCI-SUBSET-2026Q2 + GAZETTE-2026Q3 + INTERACTION-SEED-v1",
+    "rail_rule_version": "safety-rail-v1.0",
+    "timestamp": "2026-09-26T07:05:08.111008"
+  },
+  "question": "Which analgesic class must be avoided in suspected dengue, and why?",
+  "grounded_answer": "I cannot answer this question \u2014 API rate limit exceeded after retries.",
+  "citations": [],
+  "versions": {
+    "api_version": "v1.0",
+    "rail_data_version": "CDCI-SUBSET-2026Q2 + GAZETTE-2026Q3 + INTERACTION-SEED-v1",
+    "rail_rule_version": "safety-rail-v1.0",
+    "llm_model": "gemini-3.8-flash",
+    "embedding_model": "models/gemini-embedding-001"
+  }
+}

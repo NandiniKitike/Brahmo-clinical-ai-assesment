@@ -1,0 +1,404 @@
+{
+  "model": "gemini-3.8-flash",
+  "embedding": "models/gemini-embedding-001",
+  "results": [
+    {
+      "question_id": 1,
+      "question": "What is the first-line antibiotic, dose basis, and duration for acute otitis media in a child?",
+      "status": "ABSTAINED",
+      "answer": "I cannot answer this question \u2014 API rate limit exceeded after retries.",
+      "citations_count": 0,
+      "citations": []
+    },
+    {
+      "question_id": 2,
+      "question": "A 6-year-old with non-severe community pneumonia: what is the amoxicillin dose exactly as the workflow states it?",
+      "status": "ANSWERED",
+      "answer": "According to the standard treatment workflow for non-severe community pneumonia in a child, the dose of amoxicillin is:\n\n\"Amoxicillin 40 mg/kg/day in three divided doses for 5 days\" [STW_PED_02_Childhood_Pneumonia_OPD.pdf, p1]. \n\n*(Note: In accordance with clinical safety rules, doses are quoted directly as written and are not calculated for individual patients).*",
+      "citations_count": 5,
+      "citations": [
+        {
+          "chunk_id": "64ba7ea2-2feb-492a-a36c-bb6d75a16288",
+          "source_file": "STW_PED_02_Childhood_Pneumonia_OPD.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "e77d4dbe-2236-40ce-a1f9-c86a05d09514",
+          "source_file": "STW_PED_01_Acute_Otitis_Media.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "a406297d-b30b-4a88-9c88-f1bb26cb5364",
+          "source_file": "STW_GP_01_Acute_Pharyngitis.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "6e02962e-be5d-4c2c-991b-b8a67ab4c3ec",
+          "source_file": "STW_PED_03_Acute_Gastroenteritis.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "24c5bd68-e70f-4cd4-9bea-eea63022c6d7",
+          "source_file": "local_protocol_acute_fever.md",
+          "page_anchor": "intro",
+          "is_local_protocol": true
+        }
+      ]
+    },
+    {
+      "question_id": 3,
+      "question": "What is the first-line initial drug therapy for newly diagnosed adult hypertension?",
+      "status": "ANSWERED",
+      "answer": "Based on the provided text, there are conflicting recommendations from two different editions:\n\n* **Version 2021.1 (Effective: 2021-02-01):** Recommends starting Atenolol 50 mg once daily as initial monotherapy, with an alternative of Hydrochlorothiazide 25 mg once daily [STW_GP_02_Hypertension_Initial_v2021.pdf, p1].\n* **Version 2025.2 (Effective: 2025-06-01):** Recommends starting Amlodipine 5 mg once daily OR Telmisartan 40 mg once daily [STW_GP_02_Hypertension_Initial.pdf, p1].",
+      "citations_count": 5,
+      "citations": [
+        {
+          "chunk_id": "b606fa50-2a3b-4580-b453-ba978c7b8ecd",
+          "source_file": "STW_GP_02_Hypertension_Initial_v2021.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "4ff8ce62-0563-4fcf-8ee0-d95a7e0a93c4",
+          "source_file": "STW_GP_02_Hypertension_Initial.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "5f9fd865-76da-49e5-a551-784fa5fb170c",
+          "source_file": "STW_GYN_03_PCOS_Initial.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "a406297d-b30b-4a88-9c88-f1bb26cb5364",
+          "source_file": "STW_GP_01_Acute_Pharyngitis.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "07fa354f-85be-4e2b-9021-238744b4c7cb",
+          "source_file": "STW_ORT_02_Knee_OA.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        }
+      ]
+    },
+    {
+      "question_id": 4,
+      "question": "Which analgesic class must be avoided in suspected dengue, and why?",
+      "status": "ANSWERED",
+      "answer": "In suspected dengue, the analgesic class that must be avoided is non-steroidal anti-inflammatory drugs (NSAIDs), specifically including Ibuprofen, Diclofenac, and Aspirin [STW_GP_04_Dengue_OPD.pdf, p1]. \n\nThey must be avoided due to the bleeding risk [STW_GP_04_Dengue_OPD.pdf, p1].",
+      "citations_count": 5,
+      "citations": [
+        {
+          "chunk_id": "24c5bd68-e70f-4cd4-9bea-eea63022c6d7",
+          "source_file": "local_protocol_acute_fever.md",
+          "page_anchor": "intro",
+          "is_local_protocol": true
+        },
+        {
+          "chunk_id": "07fa354f-85be-4e2b-9021-238744b4c7cb",
+          "source_file": "STW_ORT_02_Knee_OA.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "239750ab-4063-4af0-95f2-284e938efb46",
+          "source_file": "STW_GP_04_Dengue_OPD.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "64ba7ea2-2feb-492a-a36c-bb6d75a16288",
+          "source_file": "STW_PED_02_Childhood_Pneumonia_OPD.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "ec7f9c77-0553-47ab-871d-b6cb3e62dfa7",
+          "source_file": "STW_GYN_01_IDA_Pregnancy.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        }
+      ]
+    },
+    {
+      "question_id": 5,
+      "question": "What are the ORS volumes after each loose stool for a child aged 2\u201310 years, and what zinc course accompanies it?",
+      "status": "ANSWERED",
+      "answer": "Based on the provided text:\n\n* **ORS volume:** For a child aged 2\u201310 years, the recommended volume of ORS is 100\u2013200 ml after every loose stool [STW_PED_03_Acute_Gastroenteritis.pdf, p1].\n* **Zinc course:** The accompanying zinc course is \"Zinc 20 mg once daily for 14 days (10 mg if <6 months)\" [STW_PED_03_Acute_Gastroenteritis.pdf, p1].",
+      "citations_count": 5,
+      "citations": [
+        {
+          "chunk_id": "6e02962e-be5d-4c2c-991b-b8a67ab4c3ec",
+          "source_file": "STW_PED_03_Acute_Gastroenteritis.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "64ba7ea2-2feb-492a-a36c-bb6d75a16288",
+          "source_file": "STW_PED_02_Childhood_Pneumonia_OPD.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "e77d4dbe-2236-40ce-a1f9-c86a05d09514",
+          "source_file": "STW_PED_01_Acute_Otitis_Media.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "07fa354f-85be-4e2b-9021-238744b4c7cb",
+          "source_file": "STW_ORT_02_Knee_OA.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "24c5bd68-e70f-4cd4-9bea-eea63022c6d7",
+          "source_file": "local_protocol_acute_fever.md",
+          "page_anchor": "intro",
+          "is_local_protocol": true
+        }
+      ]
+    },
+    {
+      "question_id": 6,
+      "question": "Which red flags in acute low back pain mandate imaging or referral?",
+      "status": "ANSWERED",
+      "answer": "In acute low back pain, the red flags that mandate imaging or referral are:\n\n* Saddle anaesthesia, bladder/bowel involvement, or progressive weakness [STW_ORT_01_Acute_Low_Back_Pain.pdf, p1].\n* Fever with spinal tenderness [STW_ORT_01_Acute_Low_Back_Pain.pdf, p1].\n* Significant trauma [STW_ORT_01_Acute_Low_Back_Pain.pdf, p1].\n* Age >65 with new pain and weight loss [STW_ORT_01_Acute_Low_Back_Pain.pdf, p1].\n\n*(Note: Pain that is persistent for >6 weeks also indicates an imaging pathway [STW_ORT_01_Acute_Low_Back_Pain.pdf, p1]).*",
+      "citations_count": 5,
+      "citations": [
+        {
+          "chunk_id": "6c5ac215-81d9-468c-b349-21914b530e28",
+          "source_file": "STW_ORT_01_Acute_Low_Back_Pain.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "07fa354f-85be-4e2b-9021-238744b4c7cb",
+          "source_file": "STW_ORT_02_Knee_OA.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "a406297d-b30b-4a88-9c88-f1bb26cb5364",
+          "source_file": "STW_GP_01_Acute_Pharyngitis.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "e77d4dbe-2236-40ce-a1f9-c86a05d09514",
+          "source_file": "STW_PED_01_Acute_Otitis_Media.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "24c5bd68-e70f-4cd4-9bea-eea63022c6d7",
+          "source_file": "local_protocol_acute_fever.md",
+          "page_anchor": "intro",
+          "is_local_protocol": true
+        }
+      ]
+    },
+    {
+      "question_id": 7,
+      "question": "Which urinary antibiotic is avoided at 36+ weeks of pregnancy, and what is the stated alternative?",
+      "status": "ANSWERED",
+      "answer": "Based on the provided context:\n\n* **Antibiotic avoided at 36+ weeks:** Nitrofurantoin is avoided near term (at 36+ weeks of pregnancy) [STW_GYN_02_UTI_Pregnancy.pdf, p1].\n* **Stated alternative:** Cefixime 200 mg twice daily for 5 days [STW_GYN_02_UTI_Pregnancy.pdf, p1].",
+      "citations_count": 5,
+      "citations": [
+        {
+          "chunk_id": "f8780a9e-125d-4455-a005-cc9b399c58e9",
+          "source_file": "STW_GYN_02_UTI_Pregnancy.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "ec7f9c77-0553-47ab-871d-b6cb3e62dfa7",
+          "source_file": "STW_GYN_01_IDA_Pregnancy.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "b606fa50-2a3b-4580-b453-ba978c7b8ecd",
+          "source_file": "STW_GP_02_Hypertension_Initial_v2021.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "22a1d6bc-6831-44eb-b5df-c033b8cb2bc7",
+          "source_file": "STW_GP_03_T2DM_Initiation.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "64ba7ea2-2feb-492a-a36c-bb6d75a16288",
+          "source_file": "STW_PED_02_Childhood_Pneumonia_OPD.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        }
+      ]
+    },
+    {
+      "question_id": 8,
+      "question": "At what HbA1c threshold at diagnosis does the workflow add a second agent to metformin, and which agent?",
+      "status": "ANSWERED",
+      "answer": "At an HbA1c threshold of \u22658.5% at diagnosis, the workflow adds Glimepiride 1 mg before breakfast as a second agent to Metformin [STW_GP_03_T2DM_Initiation.pdf, p1].",
+      "citations_count": 5,
+      "citations": [
+        {
+          "chunk_id": "22a1d6bc-6831-44eb-b5df-c033b8cb2bc7",
+          "source_file": "STW_GP_03_T2DM_Initiation.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "b606fa50-2a3b-4580-b453-ba978c7b8ecd",
+          "source_file": "STW_GP_02_Hypertension_Initial_v2021.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "4ff8ce62-0563-4fcf-8ee0-d95a7e0a93c4",
+          "source_file": "STW_GP_02_Hypertension_Initial.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "ec7f9c77-0553-47ab-871d-b6cb3e62dfa7",
+          "source_file": "STW_GYN_01_IDA_Pregnancy.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "64ba7ea2-2feb-492a-a36c-bb6d75a16288",
+          "source_file": "STW_PED_02_Childhood_Pneumonia_OPD.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        }
+      ]
+    },
+    {
+      "question_id": 9,
+      "question": "What is the first-line prophylactic drug for migraine in adults?",
+      "status": "ABSTAINED",
+      "answer": "I cannot answer this question based on the provided corpus. The provided documents contain guidance for hypertension, acute pharyngitis, knee osteoarthritis, and acute otitis media, but do not contain information regarding migraine or its prophylactic management.",
+      "citations_count": 5,
+      "citations": [
+        {
+          "chunk_id": "b606fa50-2a3b-4580-b453-ba978c7b8ecd",
+          "source_file": "STW_GP_02_Hypertension_Initial_v2021.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "a406297d-b30b-4a88-9c88-f1bb26cb5364",
+          "source_file": "STW_GP_01_Acute_Pharyngitis.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "07fa354f-85be-4e2b-9021-238744b4c7cb",
+          "source_file": "STW_ORT_02_Knee_OA.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "4ff8ce62-0563-4fcf-8ee0-d95a7e0a93c4",
+          "source_file": "STW_GP_02_Hypertension_Initial.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "e77d4dbe-2236-40ce-a1f9-c86a05d09514",
+          "source_file": "STW_PED_01_Acute_Otitis_Media.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        }
+      ]
+    },
+    {
+      "question_id": 10,
+      "question": "What is the standard drug regimen for newly diagnosed pulmonary tuberculosis?",
+      "status": "ABSTAINED",
+      "answer": "I cannot answer this question based on the provided corpus. The provided text contains workflows for childhood pneumonia, hypertension, urinary tract infection in pregnancy, acute pharyngitis, and acute otitis media, but does not contain information regarding pulmonary tuberculosis or its treatment regimens.",
+      "citations_count": 5,
+      "citations": [
+        {
+          "chunk_id": "64ba7ea2-2feb-492a-a36c-bb6d75a16288",
+          "source_file": "STW_PED_02_Childhood_Pneumonia_OPD.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "b606fa50-2a3b-4580-b453-ba978c7b8ecd",
+          "source_file": "STW_GP_02_Hypertension_Initial_v2021.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "f8780a9e-125d-4455-a005-cc9b399c58e9",
+          "source_file": "STW_GYN_02_UTI_Pregnancy.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "a406297d-b30b-4a88-9c88-f1bb26cb5364",
+          "source_file": "STW_GP_01_Acute_Pharyngitis.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "e77d4dbe-2236-40ce-a1f9-c86a05d09514",
+          "source_file": "STW_PED_01_Acute_Otitis_Media.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        }
+      ]
+    },
+    {
+      "question_id": 11,
+      "question": "Per the clinic's own protocol, when are empirical antibiotics started in adult acute undifferentiated fever \u2014 and does the national workflow pack say the same? Label your sources.",
+      "status": "ABSTAINED",
+      "answer": "According to the clinic's own protocol, empirical antibiotics are started on Day 2 if fever persists beyond 48 hours without a localizing source (specifically, \"empirical Azithromycin 500 mg once daily for 3 days\") [local_protocol_acute_fever.md, intro].\n\nRegarding whether the national workflow pack says the same: I cannot answer this question based on the provided corpus. The provided text lacks a national standard treatment workflow (STW) for adult acute undifferentiated fever.",
+      "citations_count": 5,
+      "citations": [
+        {
+          "chunk_id": "24c5bd68-e70f-4cd4-9bea-eea63022c6d7",
+          "source_file": "local_protocol_acute_fever.md",
+          "page_anchor": "intro",
+          "is_local_protocol": true
+        },
+        {
+          "chunk_id": "a406297d-b30b-4a88-9c88-f1bb26cb5364",
+          "source_file": "STW_GP_01_Acute_Pharyngitis.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "239750ab-4063-4af0-95f2-284e938efb46",
+          "source_file": "STW_GP_04_Dengue_OPD.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "e77d4dbe-2236-40ce-a1f9-c86a05d09514",
+          "source_file": "STW_PED_01_Acute_Otitis_Media.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        },
+        {
+          "chunk_id": "6c5ac215-81d9-468c-b349-21914b530e28",
+          "source_file": "STW_ORT_01_Acute_Low_Back_Pain.pdf",
+          "page_anchor": "p1",
+          "is_local_protocol": false
+        }
+      ]
+    }
+  ]
+}

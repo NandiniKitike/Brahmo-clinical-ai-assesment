@@ -1,0 +1,64 @@
+medicine,therapeutic_category,care_levels,nlem_edition
+Paracetamol,Analgesic/Antipyretic,"P,S,T",NLEM 2022
+Amoxicillin,Antibacterial,"P,S,T",NLEM 2022
+Amoxicillin + Clavulanic Acid,Antibacterial,"S,T",NLEM 2022
+Azithromycin,Antibacterial,"P,S,T",NLEM 2022
+Metformin,Antidiabetic,"P,S,T",NLEM 2022
+Glimepiride,Antidiabetic,"S,T",NLEM 2022
+Telmisartan,Antihypertensive,"P,S,T",NLEM 2022
+Amlodipine,Antihypertensive,"P,S,T",NLEM 2022
+Atenolol,Antihypertensive,"P,S,T",NLEM 2022
+Warfarin,Anticoagulant,"S,T",NLEM 2022
+Aspirin,Antiplatelet,"P,S,T",NLEM 2022
+Atorvastatin,Lipid-lowering,"P,S,T",NLEM 2022
+Pantoprazole,Antiulcer,"P,S,T",NLEM 2022
+Ondansetron,Antiemetic,"P,S,T",NLEM 2022
+Cetirizine,Antihistamine,"P,S,T",NLEM 2022
+Salbutamol,Bronchodilator,"P,S,T",NLEM 2022
+Prednisolone,Corticosteroid,"P,S,T",NLEM 2022
+Iron (Ferrous salt),Antianemic,"P,S,T",NLEM 2022
+Folic Acid,Antianemic,"P,S,T",NLEM 2022
+ORS,Rehydration,"P,S,T",NLEM 2022
+Zinc Sulphate,Diarrhoea adjunct,"P,S,T",NLEM 2022
+Thyroxine,Thyroid hormone,"P,S,T",NLEM 2022
+Ibuprofen,NSAID,"P,S,T",NLEM 2022
+Tramadol,Opioid analgesic,"S,T",NLEM 2022
+Nitrofurantoin,Urinary antibacterial,"P,S,T",NLEM 2022
+Cefixime,Antibacterial,"S,T",NLEM 2022
+Diclofenac,—,"P,S,T",NLEM 2022
+Aceclofenac,—,T,NLEM 2022
+Ciprofloxacin,—,"P,S,T",NLEM 2022
+Ofloxacin,—,T,NLEM 2022
+Metronidazole,—,T,NLEM 2022
+Losartan,—,"P,S,T",NLEM 2022
+Hydrochlorothiazide,—,"S,T",NLEM 2022
+Sitagliptin,—,T,NLEM 2022
+Rosuvastatin,—,"P,S,T",NLEM 2022
+Omeprazole,—,"P,S,T",NLEM 2022
+Rabeprazole,—,"P,S,T",NLEM 2022
+Domperidone,—,"S,T",NLEM 2022
+Levocetirizine,—,"P,S,T",NLEM 2022
+Chlorpheniramine,—,"P,S,T",NLEM 2022
+Phenylephrine,—,"P,S,T",NLEM 2022
+Montelukast,—,"P,S,T",NLEM 2022
+Clopidogrel,—,"P,S,T",NLEM 2022
+Fluoxetine,—,T,NLEM 2022
+Sertraline,—,"S,T",NLEM 2022
+Iron (Ferrous Ascorbate),—,"P,S,T",NLEM 2022
+Calcium Carbonate,—,"P,S,T",NLEM 2022
+Vitamin D3,—,"S,T",NLEM 2022
+Nimesulide,—,T,NLEM 2022
+Serratiopeptidase,—,"P,S,T",NLEM 2022
+Trypsin-Chymotrypsin,—,T,NLEM 2022
+Doxycycline,—,T,NLEM 2022
+Ranitidine,—,T,NLEM 2022
+Dicyclomine,—,"S,T",NLEM 2022
+Mefenamic Acid,—,"S,T",NLEM 2022
+Drotaverine,—,"S,T",NLEM 2022
+Etoricoxib,—,T,NLEM 2022
+Gabapentin,—,"S,T",NLEM 2022
+Pregabalin,—,"S,T",NLEM 2022
+Methylcobalamin,—,T,NLEM 2022
+Amikacin,—,T,NLEM 2022
+Clarithromycin,—,"P,S,T",NLEM 2022
+Simvastatin,—,"S,T",NLEM 2022
